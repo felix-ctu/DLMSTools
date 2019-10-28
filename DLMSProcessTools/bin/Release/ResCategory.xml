@@ -1,0 +1,91 @@
+<xml>
+<Tier2 Name="Account Management">
+	<Tier3 Name="User Profile Check">	</Tier3>
+	<Tier3 Name="Log In Issue"></Tier3>
+	<Tier3 Name="Manage Coordinator"></Tier3>
+	<Tier3 Name="Manage Reporter"></Tier3>
+	<Tier3 Name="User Profile Created"></Tier3>
+  <Tier3 Name="User Profile Role Update"></Tier3>
+</Tier2>
+<Tier2 Name="Data">
+	<Tier3 Name="JDE CR Updation"></Tier3>
+	<Tier3 Name="Mail not received for a request"></Tier3>
+	<Tier3 Name="Master Data Configuration"></Tier3>
+	<Tier3 Name="Product Management"></Tier3>
+	<Tier3 Name="Grants Data Change">
+		<Tier4 Name="Grants Information Modify"/>
+		<Tier4 Name="Add new Business Unit"/>
+		<Tier4 Name="Change to Existing Business Unit"/>
+	</Tier3>
+</Tier2>
+<Tier2 Name="Functionality">
+	<Tier3 Name="Cancelled Request">
+		<Tier4 Name="Void single Grant" Filter="eGrant"/>
+		<Tier4 Name="Void Multiple Grants" Filter="eGrant"/>
+    <Tier4 Name="Void single Meeting" Filter="eMeeting"/>
+    <Tier4 Name="Void Multiple Meetings" Filter="eMeeting"/>
+	</Tier3>
+	<Tier3 Name="Reassign/Transfer request">
+		<Tier4 Name="Reassign a Grants" Filter="eGrant"/>
+		<Tier4 Name="Reassign a Grants specific period" Filter="eGrant"/>
+		<Tier4 Name="Reassign a Grants Completely" Filter="eGrant"/>
+    <Tier4 Name="Reassign a Meeting" Filter="eMeeting"/>
+    <Tier4 Name="Reassign a Meetings specific period" Filter="eMeeting"/>
+    <Tier4 Name="Reassign a Meetings Completely" Filter="eMeeting"/>
+	</Tier3>
+	<Tier3 Name="Approve request"></Tier3>
+	<Tier3 Name="Error Message"></Tier3>
+	<Tier3 Name="Missing Assignment link of Grants">
+		<Tier4 Name="Application Workflow corrupted Issue"/>
+		<Tier4 Name="Workflow Restart"/>
+	</Tier3>
+	<Tier3 Name="Reject Request"></Tier3>
+	<Tier3 Name="Close Request"></Tier3>
+	<Tier3 Name="VR Transfer Request"></Tier3>
+	<Tier3 Name="Report Request">
+		<Tier4 Name="Grants Statistic Report"/>
+		<Tier4 Name="Grants CE Finance Report"/>
+		<Tier4 Name="Grants Finance Details Report"/>
+		<Tier4 Name="Grants EMEA Interaction Report"/>
+	</Tier3>
+	<Tier3 Name="Grants Document Attachments">
+		<Tier4 Name="Delete Single Attachment"/>
+		<Tier4 Name="Delete Multiple Attachments"/>
+		<Tier4 Name="Add Single Attachment"/>
+		<Tier4 Name="Add Multiple Attachments"/>
+	</Tier3>
+</Tier2>
+<Tier2 Name="Integration">
+	<Tier3 Name="Document Attachments"></Tier3>
+	<Tier3 Name="The grant not entered in JDE"></Tier3>
+	<Tier3 Name="Data Table Changes"></Tier3>
+	<Tier3 Name="Error Message"></Tier3>
+	<Tier3 Name="Grants Workflow Error">
+		<Tier4 Name="Work Flow Issue"/>
+		<Tier4 Name="Work Party Blank Issue"/>
+		<Tier4 Name="Grants Agent Issue"/>
+		<Tier4 Name="Grants Type and Short Code Issue"/>
+		<Tier4 Name="Error Message While Submit the Grant"/>
+		<Tier4 Name="Workflow Restart"/>
+	</Tier3>
+</Tier2>
+<Tier2 Name="Report">
+	<Tier3 Name="Data Missing"></Tier3>
+	<Tier3 Name="Incorrect Value"></Tier3>
+	<Tier3 Name="Error in generation"></Tier3>
+	<Tier3 Name="Error Message"></Tier3>
+</Tier2>
+<Tier2 Name="Infrastructure/Environment">
+	<Tier3 Name="Browser Compatibility Issue"></Tier3>
+	<Tier3 Name="Server Issue"></Tier3>
+	<Tier3 Name="URL Issue"></Tier3>
+	<Tier3 Name="Network Issue"></Tier3>
+	<Tier3 Name="K2 Server Outage"></Tier3>
+</Tier2>
+<Tier2 Name="How to">
+	<Tier3 Name="Check Status"></Tier3>
+	<Tier3 Name="Who it is assigned"></Tier3>
+	<Tier3 Name="Where is my request"></Tier3>
+	<Tier3 Name="How to operate my request"></Tier3>
+</Tier2>
+</xml>
